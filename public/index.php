@@ -9,3 +9,4 @@
 	<input type="submit">
 </form>
 <h3>3. Проводник</h3>
+<a href="/files.php">Файлы</a>
