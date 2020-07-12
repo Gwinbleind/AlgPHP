@@ -16,7 +16,7 @@ $input = $_POST['input'];
 echo $input . ' ';
 
 $s = new MyStack();
-$s = new SplStack();
+//$s = new SplStack();
 try {
 	while (!empty($input)) {
 		$char = $input[0];

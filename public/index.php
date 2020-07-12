@@ -4,4 +4,8 @@
 	<input type="submit">
 </form>
 <h3>2. Простые делители</h3>
+<form method="post" action="divider.php">
+	<input name="number" type="number">
+	<input type="submit">
+</form>
 <h3>3. Проводник</h3>

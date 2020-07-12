@@ -5,8 +5,8 @@ namespace app\modules;
 
 class MyStack
 {
-	protected ?MyStackElement $first;
-	protected ?MyStackElement $last;
+	public ?MyStackElement $first;
+	public ?MyStackElement $last;
 
 	public function __construct()
 	{
