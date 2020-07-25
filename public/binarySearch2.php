@@ -11,9 +11,3 @@ function binarySearch (array $array, int $start, int $end, int $search): int {
 		return binarySearch($array,$middle+1,$end,$search);
 	}
 }
-
-$array = [1,2,3,4,5,6];
-$search = 1;
-$start = 0;
-$end = count($array)-1;
-echo binarySearch($array,$start,$end,$search);
